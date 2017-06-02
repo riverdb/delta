@@ -10,5 +10,3 @@ for d in $(go list ./... | grep -v vendor); do
         rm /tmp/profile.out
     fi
 done
-
-bash <(curl -s https://codecov.io/bash) || echo "Codecov did not collect coverage reports"
