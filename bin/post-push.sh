@@ -6,6 +6,6 @@ fi
 
 set -e
 
-if [ -f coverage.txt ] then
+if [ -f coverage.txt ]; then
 	bash <(curl -s https://codecov.io/bash) || echo "Codecov did not collect coverage reports"
 fi
