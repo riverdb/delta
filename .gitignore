@@ -12,3 +12,16 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+
+# fswatch config file
+.fsw.yml
+
+# Gogland files
+.idea
+
+# Private stuff
+private/
+
+# Hidden OS files
+.DS_Store
+Thumbs.db
