@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 
 if [ -n "${IGNORE_PRE_PUSH_HOOK}" ]; then
         exit 0
